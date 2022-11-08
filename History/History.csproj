@@ -32,7 +32,7 @@
       <HintPath>J:\Downloads\TShock-Beta-win-x64-Release-4\bin\TerrariaServer.dll</HintPath>
     </Reference>
     <Reference Include="TShockAPI">
-      <HintPath>J:\Downloads\TShock-Beta-win-x64-Release-4\ServerPlugins\TShockAPI.dll</HintPath>
+      <HintPath>J:\Downloads\TShock-5.0.0-for-Terraria-1.4.4.7-win-x64-Release\ServerPlugins\TShockAPI.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

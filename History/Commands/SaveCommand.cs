@@ -23,7 +23,7 @@ namespace History.Commands
 
 		public override void Execute()
 		{
-			if (TShock.DB.GetSqlType() == SqlType.Sqlite)
+			if (TShock.Config.Settings.StorageType == "sqlite")
 			{
 				using (IDbConnection db = History.Database.CloneEx())
 				{
