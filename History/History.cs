@@ -19,6 +19,7 @@ using TerrariaApi.Server;
 using TShockAPI;
 using TShockAPI.DB;
 using Microsoft.Xna.Framework;
+using Terraria.ID;
 
 namespace History
 {
@@ -828,10 +829,10 @@ namespace History
 			}
 		}
 
-		bool[] breakableBottom = new bool[Main.maxTileSets];
-		bool[] breakableTop = new bool[Main.maxTileSets];
-		bool[] breakableSides = new bool[Main.maxTileSets];
-		bool[] breakableWall = new bool[Main.maxTileSets];
+		bool[] breakableBottom = new bool[TileID.Sets.AllTiles.Length];
+		bool[] breakableTop = new bool[TileID.Sets.AllTiles.Length];
+		bool[] breakableSides = new bool[TileID.Sets.AllTiles.Length];
+		bool[] breakableWall = new bool[TileID.Sets.AllTiles.Length];
 		void initBreaks()
 		{
 			breakableBottom[4] = true;
